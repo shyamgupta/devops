@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  remote_user: true
+  remote_user: ubuntu
   become: true
   tasks:
       - name: install pre-reqs for docker
